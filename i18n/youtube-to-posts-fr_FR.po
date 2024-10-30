@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Import YouTube videos as WP Posts v1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-04 09:39+0000\n"
+"PO-Revision-Date: 2017-12-04 09:42+0000\n"
+"Last-Translator: admin <enguerrandeep@gmail.com>\n"
+"Language-Team: French (France)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: fr-FR"
+
+#: admin.php:48
+msgid "Use video date instead of current date?"
+msgstr ""
+"Utiliser la date de publication de la vidéo plutôt que la date actuelle ?"
+
+#: admin.php:50
+msgid "Yes"
+msgstr "Oui"
+
+#: admin.php:51
+msgid "No"
+msgstr "Non"
+
+#: admin.php:53
+msgid ""
+"If you choose `Yes`, the created post will use the video date as its date, "
+"otherwise it will use the current date."
+msgstr ""
+"Si vous choisissez 'Oui', l'article créé utilisera la date de publication de "
+"la vidéo, sinon, il utilisera la date actuelle."
+
+#. Name of the plugin
+msgid "Import YouTube videos as WP Posts"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Get a video list from a request to Youtube (free query, playlist ID, channel "
+"ID) and add their content to your own Wordpress :)"
+msgstr ""
+"Retrouvez une liste de vidéos en fonction d'une requête (par mots-clé, ID de "
+"playlist, ID de chaine) et ajoutez ces vidéos sur votre Wordpress."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.enguerranweiss.fr"
+msgstr ""
+
+#. Author of the plugin
+msgid "Enguerran Weiss"
+msgstr ""
+
+#: admin.php:7
+msgid "Approve"
+msgstr "Enregistrer"
+
+#: admin.php:8
+msgid "Deny"
+msgstr "Rejeter"
+
+#: admin.php:9
+msgid ""
+"You have changed the query parameters, remember to click on Save Changes to "
+"update the results."
+msgstr ""
+"Vous avez changé les paramètres de votre requête, n\\'oubliez pas de cliquer "
+"sur Enregistrer les modifications pour mettre à jour les résultats."
+
+#: admin.php:10
+msgid ""
+"There is an error with your API key, it has been rejected by Google API "
+"Service."
+msgstr ""
+"Il semble y avoir une erreur avec votre configuration (clé API Google, ID "
+"playlist ou de chaîne Youtube), veuillez vérifier ces paramètres."
+
+#: admin.php:11
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: admin.php:12
+msgid "Video added !"
+msgstr "Vidéo ajoutée !"
+
+#: admin.php:13
+msgid "Video rejected !"
+msgstr "Vidéo supprimée !"
+
+#: admin.php:20
+msgid "Youtube query options"
+msgstr "Options de requête vers Youtube"
+
+#: admin.php:27
+msgid "Query type:"
+msgstr "Type de requête :"
+
+#: admin.php:36
+msgid "Query:"
+msgstr "Requête :"
+
+#: admin.php:37
+msgid "Type your query."
+msgstr "Tapez votre requête."
+
+#: admin.php:38
+msgid ""
+"If your query type is a playlist or a user, then you must type the relevant "
+"playlist / user ID."
+msgstr ""
+"Si votre requête correspond à une playlist ou une chaîne Youtube, vous devez "
+"renseigner l'ID de celle-ci."
+
+#: admin.php:42
+msgid "Max results?"
+msgstr "Nombre de résultats maximum&nbsp;?"
+
+#: admin.php:43
+msgid "Default value is 30"
+msgstr "La valeur par défaut est de 30"
+
+#: admin.php:56
+msgid "Post type to feed:"
+msgstr "Type de post à alimenter :"
+
+#: admin.php:73 admin.php:90
+msgid "If you select a custom post type, be sure it supports Post Thumbnails."
+msgstr ""
+"Si vous sélectionnez un type de publication personnalisé, assurez-vous qu'il "
+"supporte les images à la une (Post Thumbnails)."
+
+#: admin.php:76
+msgid "Post status of created posts:"
+msgstr "Status des articles nouvellement créés:"
+
+#: admin.php:93
+msgid "Taxonomy term to feed:"
+msgstr "Terme de taxonomie à remplir :"
+
+#: admin.php:110
+msgid "Published:"
+msgstr "Publié:"
+
+#: admin.php:132
+msgid "Results from Youtube for:"
+msgstr "Résultats récupérés depuis Youtube pour la requête :"
+
+#: admin.php:133
+msgid "Results are ordered by date, newest first."
+msgstr "Les résultats sont rangés par date, les plus récents en premier."
+
+#: admin.php:135
+msgid "Media added !"
+msgstr "Vidéo ajoutée !"
+
+#: admin.php:138
+msgid "Video preview"
+msgstr "Miniature"
+
+#: admin.php:139
+msgid "Video title"
+msgstr "Titre de la vidéo"
+
+#: admin.php:140
+msgid "Video description"
+msgstr "Description de la vidéo"
+
+#: admin.php:141
+msgid "Upload date"
+msgstr "Date d'upload"
+
+#: admin.php:142
+msgid "Actions"
+msgstr "Actions"
+
+#: admin.php:145
+msgid "Getting the posts, please wait..."
+msgstr "Chargement des vidéos, veuillez patienter..."
+
+#: admin.php:148
+msgid "Load more videos"
+msgstr "Charger plus de vidéos"
+
+#: admin.php:149
+msgid "Adding videos, please wait..."
+msgstr "Vidéos en cours d'ajout, veuillez patienter..."
+
+#: admin.php:149 admin.php:149
+msgid "Approve all listed videos"
+msgstr "Ajouter toutes les vidéos listées d'un coup"
+
+#: admin.php:153
+msgid ""
+"Your Youtube API access is not defined, go set it on the <a href=\"options-"
+"general.php?page=youtube-to-posts\">settings page</a>."
+msgstr ""
+"Vous n'avez pas renseigné de clé d'API Youtube, renseignez-là sur <a "
+"href=\"options-general.php?page=youtube-to-posts\">la page d'options</a>."
+
+#: options.php:12
+msgid "Google Youtube API settings :"
+msgstr "Paramètres de l'API Google Youtube :"
+
+#: options.php:16
+msgid "Google Youtube API key:"
+msgstr "Clé API Youtube :"
+
+#: options.php:17
+msgid "Paste here your consumer key"
+msgstr "Collez ici votre consumer key"
+
+#: options.php:22
+msgid "Post content format :"
+msgstr "Format du contenu de l'article :"
+
+#: options.php:24
+msgid ""
+"You can customize the way Youtube content will feed your posts with a "
+"template tag system. So:"
+msgstr ""
+"Vous pouvez personnaliser la façon dont vous alimentez votre site avec des "
+"contenus Youtube :"
+
+#: options.php:29
+msgid "%title% is the title of the Youtube video"
+msgstr "%title% est le titre de la vidéo"
+
+#: options.php:30
+msgid ""
+"%description% is the description (500 chars max - Youtube restriction) of "
+"the Youtube video"
+msgstr ""
+"%description% est la description de la vidéo (500 caractères max., imposé "
+"par Youtube)"
+
+#: options.php:31
+msgid "%embed% will display the embed code of the video"
+msgstr "%embed% affichera le code embed de la vidéo"
+
+#: options.php:32
+msgid "%thumbnail% will display the thumbnail of the video"
+msgstr "%thumbnail% affiche la miniature (preview) de la vidéo"
+
+#: options.php:33
+msgid "%query% will display the query you typed"
+msgstr "%query% vous permet d'afficher la requête que vous avez tapé"
+
+#: options.php:34
+msgid "%user% will display the uploader of the video"
+msgstr ""
+"%user% affichera le nom d'utilisateur de la personne qui a uploadé la vidéo"
+
+#: options.php:35
+msgid "%date% will display the upload date of the video"
+msgstr "%date% affichera la date d'upload de la vidéo"
+
+#: options.php:40
+msgid "Title format of your videos:"
+msgstr "Format de titre des articles ajoutés :"
+
+#: options.php:40
+msgid "Default title is just %title%"
+msgstr "Par défaut, le titre correspond au titre de la vidéo (%title%)"
+
+#: options.php:41 options.php:45
+msgid "e.g. Last Video of %user% - %title%"
+msgstr "ex :Dernière vidéo par %user% - %title%"
+
+#: options.php:44
+msgid "Content format of your videos:"
+msgstr "Format du contenu des articles ajoutés :"
+
+#: options.php:44
+msgid "Default content is %embed%<br>%description%"
+msgstr "Par défaut : %embed%<br>%description%"
+
+#: options.php:49
+msgid "How can I get a Google API key?"
+msgstr "Comment puis-je avoir une clé API Google ?"
+
+#: options.php:51
+msgid ""
+"To use this plugin, you'll need to create a Google Youtube API key. Dealing "
+"with Google Developers Console can be a bit confusing, you need to : create "
+"a project, make the API data you need active and generate a public API key. "
+"Here's how to do that:"
+msgstr ""
+"Pour utiliser ce plugin, vous devez créer une clé d'API Youtube sur la "
+"console de développeur Google. Ça parait compliqué, mais ça ne l'est pas "
+"tant que ça, il faut : créer un projet, activer l'API \\\"YouTube Data API "
+"v3\\\" et générer ensuite une clé API. Voici comment faire, pas à pas :"
+
+#: options.php:56
+msgid "Login to Google using your Google account."
+msgstr "Connectez-vous sur Google avec votre compte Google."
+
+#: options.php:58
+msgid ""
+"Go to the <a target=\"_blank\" href=\"https://console.developers.google."
+"com/project\">Developers Console > Projects</a>"
+msgstr ""
+"Allez sur <a target=\"_blank\" href=\"https://console.developers.google."
+"com/project\">la console de développeurs > Projets</a>"
+
+#: options.php:59
+msgid ""
+"Click on \"Create a project\" (you'll need to give it a title and an ID)"
+msgstr ""
+"Cliquez sur \"Créer un projet\" (il faudra lui donner un titre et un ID)"
+
+#: options.php:60
+msgid "When your project his created, click on it on the project list"
+msgstr ""
+"Lorsque votre projet est créé, cliquez dessus dans la liste des projets"
+
+#: options.php:61
+msgid ""
+"Go to the section API and authentication > API, and search for YouTube Data "
+"API v3, and click on the button on the right to make this API active."
+msgstr ""
+"Allez dans la section API et authentification > API et rechercher Youtube "
+"Data API v3, et activez la via le bouton à droite."
+
+#: options.php:62
+msgid ""
+"Go to the Credentials section > Access to the public API anc click on the "
+"button \"Make a key\" > Server key"
+msgstr ""
+"Allez dans la section Identifiants > Ajouter des identifiants > Clé API > "
+"Clé serveur "
+
+#: options.php:63
+msgid ""
+"On the next box, you'll need to tell on which domains you allow the use of "
+"your app (e.g. 127.0.0.1, www.mydomain.com, etc)."
+msgstr ""
+"Vous pouvez également renseigner des domaines sur lesquels l'utilisation de "
+"cette clé est autorisé (ex : 127.0.0.1, etc...)"
+
+#: options.php:64
+msgid ""
+"Now it should have generated a API Key (e.g. "
+"AIzaFyD0aPCQjLFRbLnh4RKbVBlBgVCVSwjbFAg), copy-paste it on the box above."
+msgstr ""
+"En cliquant sur Créer, une popup s'ouvre avec votre clé API, vous n'avez "
+"plus qu'à la renseigner dans le champ en haut de cette page."
+
+#: options.php:65
+msgid "It's done, congrats :)"
+msgstr "C'est fait, bien joué :)"
